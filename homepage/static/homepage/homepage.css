@@ -5,7 +5,7 @@
 }
 
 .navbar-dark .navbar-brand{
-    color: #0abd83;
+    color: #066e4c;
 }
 .navbar-dark .navbar-nav .nav-link {
     font-size: 30px;
@@ -30,4 +30,9 @@
 
 .rounded {
     border-radius: 1rem !important;
+}
+
+section{
+    padding-bottom: 5.5rem !important;
+    padding-top: 5.5rem !important;
 }
