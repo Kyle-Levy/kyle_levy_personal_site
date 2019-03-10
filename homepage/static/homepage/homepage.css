@@ -1,0 +1,29 @@
+.nav-item, .navbar-brand {
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    color: #0dab76;
+}
+
+.nav-item {
+    font-size: 30px;
+}
+
+.nav-item:hover, .navbar-brand:hover{
+    color: #12d599;
+}
+
+.navbar{
+    background: #080708;
+}
+
+#profile-row{
+    background:#d1d6ef;
+}
+
+#profile-pic{
+    width: 35%;
+}
+
+.rounded {
+    border-radius: 1rem !important;
+}
