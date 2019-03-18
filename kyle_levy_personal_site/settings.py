@@ -81,7 +81,7 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = ['172.17.55.86','0.0.0.0','127.0.0.1', 'localhost','192.168.1.19', '192.168.1.120', '192.168.43.50', 'noble-kingdom-234902.appspot.com']
+ALLOWED_HOSTS = ['172.17.55.86','0.0.0.0','127.0.0.1', 'localhost','192.168.1.19', '192.168.1.120', '192.168.43.50', 'noble-kingdom-234902.appspot.com', 'kylelevy.com']
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
