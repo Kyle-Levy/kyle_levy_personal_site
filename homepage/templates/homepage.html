@@ -15,14 +15,15 @@
     <title>Kyle Levy</title>
 </head>
 <body>
+
 <nav class="navbar sticky-top navbar-expand-sm navbar-dark" id="main-nav">
     <a class="navbar-brand" href="#">Kyle Levy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse ml-auto" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#projects">Projects</a>
             <a class="nav-item nav-link" href="#skills">Skills</a>
@@ -30,83 +31,160 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid">
-    <div class="row" id="profile-row">
-        <div class="col">
-            <div class="text-center">
-                <img src="{% static "homepage/kyle_levy_profile.jpg" %}" class="rounded m-4" id="profile-pic">
+
+<section id="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="text-center">
+                    <img src="{% static "homepage/kyle_levy_profile.jpg" %}" class="rounded m-4" id="profile-pic">
+                </div>
             </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div class="col">
-            <section id="about">
-                <h2 class="text-center">About Me</h2>
-                <div class="row justify-content-md-center">
-                    <div class="col-sm-4 col-xs-12">
-                        <h5>As a Software Developer</h5>
-                        <p class="text-left">My name is Kyle Levy and I am a student studying Computer
-                            Engineering at
-                            the University of
-                            Iowa, focusing on Software
-                            Engineering. Throughout my time at the University, I've experienced a variety of
-                            languages,
-                            and have a preference for working in the backend, but also enjoy seeing what
-                            Bootstrap and Javascript have to offer on the frontend. </p>
-                    </div>
-                    <div class="col-sm-4 col-xs-12">
-                        <h5>As a Person</h5>
-                        <ul class="text-left">
-                            <li><strong>Activities:</strong> Swimming, Water Polo, Weightlifting, Cycling</li>
-                            <li><strong>Hobbies:</strong> Building Computers, Mechanical Keyboards, Cooking, and
-                                Reading
-                            </li>
-                            <li><strong>Favorite Dish to Cook:</strong> Beef Stew</li>
-                            <li><strong>Favorite Author:</strong> J.R.R. Tolkien</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="section-header">About Me</h2>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-sm-6 col-xs-12">
+                <h5>As a Software Developer</h5>
+                <p class="text-left">My name is Kyle Levy and I am a student studying Computer
+                    Engineering at
+                    the University of
+                    Iowa, focusing on Software
+                    Engineering. Throughout my time at the University, I've experienced a variety of
+                    languages,
+                    and have a preference for working in the backend, but also enjoy seeing what
+                    Bootstrap and Javascript have to offer on the frontend. </p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <h5>As a Person</h5>
+                <ul class="text-left">
+                    <li><strong>Activities:</strong> Swimming, Water Polo, Weightlifting, Cycling</li>
+                    <li><strong>Hobbies:</strong> Building Computers, Mechanical Keyboards, Cooking, and
+                        Reading
+                    </li>
+                    <li><strong>Favorite Dish to Cook:</strong> Beef Stew</li>
+                    <li><strong>Favorite Author:</strong> J.R.R. Tolkien</li>
+                </ul>
+            </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div class="col">
-            <section id="projects">
-                <div class="row">
-                    <div class="col text-center">
-                        <h2>Projects</h2>
-                    </div>
-                </div>
-            </section>
+<section id="projects">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="search-label-icon">Projects</h2>
+            </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div class="col">
-            <section id="skills">
-                <div class="row">
-                    <div class="col text-center">
-                        <h2>Skills</h2>
-                    </div>
+<section id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="mt-1 mb-4">Skills</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <p class="progress-label">Java</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 95%"></div>
                 </div>
-            </section>
+                <p class="progress-label mt-3">Ruby</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 75%"></div>
+                </div>
+                <p class="progress-label mt-3">Python</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 85%"></div>
+                </div>
+                <p class="progress-label mt-3">MATLAB</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 60%"></div>
+                </div>
+                <p class="progress-label mt-3">OCaml</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 25%"></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <p class="progress-label">JavaScript</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 75%"></div>
+                </div>
+                <p class="progress-label mt-3">HTML/CSS</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 70%"></div>
+                </div>
+                <p class="progress-label mt-3">C/C++</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 50%"></div>
+                </div>
+                <p class="progress-label mt-3">PHP</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 65%"></div>
+                </div>
+                <p class="progress-label mt-3">Git</p>
+                <div class="progress">
+
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"
+                         style="width: 85%"></div>
+                </div>
+            </div>
         </div>
     </div>
+</section>
 
-    <div class="row">
-        <div class="col">
-            <section id="contact">
-                <div class="row">
-                    <div class="col text-center">
-                        <h2>Contact</h2>
-                    </div>
-                </div>
-            </section>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h2 class="my-4">Contact</h2>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
