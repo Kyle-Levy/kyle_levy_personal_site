@@ -17,7 +17,7 @@
 }
 
 .navbar {
-    background: #080708;
+    background: #171516;
 }
 
 section:nth-child(even) {
@@ -26,11 +26,6 @@ section:nth-child(even) {
 
 #profile-pic {
     width: 40%;
-}
-
-.section-header {
-    margin-bottom: 2rem !important;
-    margin-top: 2rem !important;
 }
 
 .rounded {
@@ -45,4 +40,19 @@ section {
 body {
     font-family: 'Cabin', sans-serif;
 
+}
+
+.btn-outline-dark{
+    color: #171516;
+    border-color: #171516;
+}
+
+.btn-lg{
+    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
+}
+
+.btn-outline-dark:hover{
+    background-color: #171516;
+    border-color: #171516;
 }

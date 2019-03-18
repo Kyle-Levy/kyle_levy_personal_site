@@ -30,7 +30,8 @@
             <a class="nav-item nav-link" href="#contact">Contact</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="{% static "homepage/Kyle Levy Resume 2019.pdf" %}" target="_new">Resume</a>
+            <a class="nav-item nav-link" href="{% static "homepage/Kyle Levy Resume 2019.pdf" %}"
+               target="_new">Resume</a>
         </div>
     </div>
 </nav>
@@ -52,7 +53,7 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="section-header">About Me</h2>
+                <h2 class="mt-1 mb-4">About Me</h2>
             </div>
         </div>
         <div class="row justify-content-md-center">
@@ -86,7 +87,45 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="search-label-icon">Projects</h2>
+                <h2 class="mt-1 mb-4">Projects</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3 mx-auto" style="max-width: 18rem;">
+                    <div class="card-header">Emotions of Twitter</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Application</h5>
+                        <p class="card-text">Website that provides users to create an account to search and save a graph
+                            of specified twitter users sentiment on specified topics</p>
+                        <small class="card-text">Ruby on Rails, HTML, CSS, JavaScript</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3 mx-auto" style="max-width: 18rem;">
+                    <div class="card-header">Temperature Box</div>
+                    <div class="card-body">
+                        <h5 class="card-title">RaspberryPi Application</h5>
+                        <p class="card-text">Group project that used a Raspberry Pi 3 and a temperature sensor to
+                            wirelessly, communicate, with a Java server on a PC to receive and graph 300-seconds of
+                            temperature data.</p>
+                        <small class="card-text">Python, Java</small>
+                        <a href="https://github.com/Kyle-Levy/Temperature-Box" target="_blank" class="ml-2"><img
+                                src="{% static "homepage/GitHub-Mark-Light-32px.png" %}"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-white bg-secondary mb-3 mx-auto" style="max-width: 18rem;">
+                    <div class="card-header">Cardiology Patient Manager</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Application</h5>
+                        <p class="card-text">HIPAA compliant web application to track, manage, and create analytics
+                            about patients for the University of Iowa Hospital Cardiology Department.</p>
+                        <small class="card-text">Django, Javascript, HTML/CSS, Bootstrap, Travis-CI, AWS</small>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -182,7 +221,22 @@
     <div class="container">
         <div class="row">
             <div class="col text-center">
-                <h2 class="my-4">Contact</h2>
+                <h2 class="mt-1 mb-4">Contact</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <a href="https://github.com/kyle-levy/" target="_blank"> <img
+                        src="{% static "homepage/GitHub-Mark-120px-plus.png" %}"></a>
+            </div>
+            <div class="col">
+                <a href="mailto:kyle.robert.levy@gmail.com" target="_top">
+                    <button type="button" class="btn btn-outline-dark btn-lg">Email</button>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/in/kyle-levy/" target="_blank"> <img
+                        src="{% static "homepage/In-Black-101px-R.png" %}"></a>
             </div>
         </div>
     </div>
